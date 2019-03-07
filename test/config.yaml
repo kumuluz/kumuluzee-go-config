@@ -1,0 +1,39 @@
+integer-value: 36
+not-integer-value: "37"
+negative-integer-value: -4
+
+float-value: 11.65425
+not-float-value: "14.6845"
+negative-float-value: -0.411
+
+string-value: "hey ho"
+unq-string-value: considered
+empty-string-value: ""
+
+boolean-value-1: true
+boolean-value-2: True
+boolean-value-3: TRUE
+not-boolean-value: "true"
+not-boolean-value-2: 1
+
+some-config:
+  protocol: "tcp"
+  address:
+    ip: "127.0.0.2"
+    port: 3000
+  version: "1.0.0"
+  some-boolean: true
+
+deep-config:
+  l1:
+    l2:
+      l_3:
+        l-4:
+          l 5:
+            6l: 6
+
+yaml-array:
+  - entry1
+  - entry2
+  - entry3
+  - entry4

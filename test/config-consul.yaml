@@ -1,0 +1,8 @@
+kumuluzee:
+  name: config-test
+  env:
+    name: dev
+  version: 1.0.0
+  config:
+    consul:
+      hosts: http://127.0.0.1:8500 # consul address
